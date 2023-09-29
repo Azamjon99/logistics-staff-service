@@ -6,6 +6,9 @@ import (
 	"github.com/Azamjon99/logistics-staff-service/src/domain/models"
 )
 
+
+
+
 type DriverRepository interface {
 	WithTx(ctx context.Context, f func(r DriverRepository) error) error
 	SaveDriver(ctx context.Context, driver *models.Driver) error

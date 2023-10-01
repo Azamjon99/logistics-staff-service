@@ -2,8 +2,8 @@ package dtos
 
 import (
 	"time"
-    pb "github.com/Azamjon99/logistics-staff-service/src/application/protos/logistics_staff" 
 
+	pb "github.com/Azamjon99/logistics-staff-service/src/application/protos/logistics_staff"
 	"github.com/Azamjon99/logistics-staff-service/src/domain/models"
 )
 

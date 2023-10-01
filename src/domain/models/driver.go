@@ -27,4 +27,4 @@ type DriverSmsCode struct {
     Code       string    `json:"code"`
     ExpiresIn  int       `json:"expires_in"`
     CreatedAt  time.Time `json:"created_at"`
-}
+} 
